@@ -1,0 +1,4 @@
+---
+radosgw_interface: ens3
+radosgw_frontend_type: civetweb
+radosgw_civetweb_port: 7480

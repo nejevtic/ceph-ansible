@@ -1,0 +1,16 @@
+---
+
+generate_fsid: false
+fsid: 2319432f-524b-4ad7-b4bb-b2418ec8acf5
+ceph_origin: repository
+ceph_repository: community
+ceph_stable: true
+ceph_stable_release: octopus
+monitor_interface: ens3
+public_network: 192.168.122.0/24
+ceph_conf_overrides:
+  global:
+    osd pool default size: 2
+    osd pool default mon size: 1
+    mon max pg per osd: 4096
+dashboard_enabled: false

@@ -1,0 +1,8 @@
+---
+osd_auto_discovery: false
+osd_scenarion: lvm
+#osd_objectstore: filestore
+osd_objectstore: bluestore
+osd_memory_target: 2147483648
+devices:
+  - /dev/vdb
